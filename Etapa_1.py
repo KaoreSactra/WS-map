@@ -18,7 +18,7 @@ nav.minimize_window()
 def search(local):
     nav.maximize_window()
     nav.get('https://www.google.com/maps')
-    nav.find_element('xpath', '//*[@id="searchboxinput"]').send_keys('Padaria')
+    nav.find_element('xpath', '//*[@id="searchboxinput"]').send_keys(local)
     nav.find_element('xpath', '//*[@id="searchbox-searchbutton"]').click()
 
 # Tema e Layout
