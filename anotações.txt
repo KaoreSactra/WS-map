@@ -1,0 +1,12 @@
+//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[3]/div/a
+//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[5]/div/a
+//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[7]/div/a
+
+Apenas Impar?
+
+
+
+
+nav.implicitly_wait(5)
+
+Implicito tem q fazer o explicito
