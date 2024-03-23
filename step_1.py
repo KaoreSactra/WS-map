@@ -2,7 +2,6 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from PySimpleGUI import PySimpleGUI as sg
-import os
 
 # Opções (fazem o google n fechar sozinho)
 opts = webdriver.ChromeOptions()
@@ -29,7 +28,7 @@ layout = [
 ]
 
 # Janela inicial
-janela = sg.Window('Fase 1', layout)
+janela = sg.Window('Step 1', layout)
 
 while True:
     event, value = janela.read()
